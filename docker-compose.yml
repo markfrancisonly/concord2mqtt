@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  concord2mqtt:
+    image: concord2mqtt:latest
+    environment:
+      - TZ=America/New_York
+      - Logging__LogLevel__Default=Information
+    build:
+      context: .
+      args:
+        - BUILD=Release
+      dockerfile: Dockerfile
+    volumes:
+      - type: bind
+        source: /projects/concord2mqtt/appsettings.json
+        target: /app/appsettings.json
+    ports:
+      - 4001:4001
+    restart: unless-stopped

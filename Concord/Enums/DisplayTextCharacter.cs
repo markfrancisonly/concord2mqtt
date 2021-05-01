@@ -1,0 +1,55 @@
+﻿using System;
+
+namespace Automation.Concord
+{
+   
+    public enum DisplayTextCharacter
+    {
+        Zero = 0x00,
+        One = 0x01,
+        Two = 0x02,
+        Three = 0x03,
+        Four = 0x04,
+        Five = 0x05,
+        Six = 0x06,
+        Seven = 0x07,
+        Eight = 0x08,
+        Nine = 0x09,
+        Pound = 0x0C,
+        Colon = 0x0D,
+        ForwardSlash = 0x0E,
+        QuestionMark = 0x0F,
+        Period = 0x10,
+        A = 0x11,
+        B = 0x12,
+        C = 0x13,
+        D = 0x14,
+        E = 0x15,
+        F = 0x16,
+        G = 0x17,
+        H = 0x18,
+        I = 0x19,
+        J = 0x1A,
+        K = 0x1B,
+        L = 0x1C,
+        M = 0x1D,
+        N = 0x1E,
+        O = 0x1F,
+        P = 0x20,
+        Q = 0x21,
+        R = 0x22,
+        S = 0x23,
+        T = 0x24,
+        U = 0x25,
+        V = 0x26,
+        W = 0x27,
+        X = 0x28,
+        Y = 0x29,
+        Z = 0x2A,
+        Space = 0x2B,
+        Quote = 0x2C,
+        Dash = 0x2D,
+        Underline = 0x2E,
+        Star = 0x2F
+    }
+}
